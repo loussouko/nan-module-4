@@ -56,7 +56,7 @@
                     </li>
                     <?php if(isset($_SESSION['user'])): ?>
                     <li class="nav-item ">
-                        <a href="modifprofil" class="nav-link"><i class="fa fa-user-circle fa-2x"></i><span class="h6 ml-2"><?= $_SESSION['user']['nomUser'] ?></span class="h6 ml-2"></a>
+                        <a href="modifprofil" class="nav-link"><i class="fa fa-user-circle fa-2x"></i><span class="h6 ml-1"><?= $_SESSION['user']['nomUser'] ?></span class="h6 ml-2"></a>
                     </li>
                     <?php endif; ?>
                 </div>
