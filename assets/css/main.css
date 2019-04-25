@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+body{
+    margin: 0;
+}
+a, h1, h2, h3, p{
+    text-decoration: inherit;
+    color: inherit;
+}
+.main-container{
+    color: #fff;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    background: url(back-bg.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+}
+.main-container .blur{
+    background-color: rgb(0, 0, 0, .6);
+    position: absolute;
+    z-index: 3p;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+}
+.main-container .container{
+    z-index: 6;
+    display: flex;
+    align-items: center;
+    max-width: 1400px;
+}
+.container .sec0{
+    max-width: 600px;
+}
+.container .sec1{
+    background-color: #00bb7d;
+    margin-left: 25px;
+    width: 300px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 25px;
+}
+.sec0 h2{
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+.yForm{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.yForm button{
+    height: 25px;
+    border: none;
+    border-radius: 15px;
+    padding: 0 15px;
+    color: #fff;
+    background-color: #00875a;
+    cursor: pointer;
+}
+.yForm .inputG{
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.inputG input, .inputG select{
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    padding: 0 15px;
+    text-align: center;
+}
+#regImg{
+    width: 250px;
+}
+.toReg h2{
+    font-size: 14px;
+}

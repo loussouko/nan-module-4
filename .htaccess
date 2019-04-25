@@ -1,0 +1,32 @@
+DirectoryIndex index.php
+RewriteEngine On
+RewriteRule ^cours$ index.php?page=cours
+RewriteRule ^home$ index.php?page=login
+RewriteRule ^inscription$ index.php?page=signin
+RewriteRule ^lecon$ index.php?page=lecon
+RewriteRule ^signin$ index.php?page=signin
+RewriteRule ^course-([0-9]+)$ index.php?page=course&id=$1
+RewriteRule ^logout$ index.php?page=logout
+RewriteRule ^addmatiere$ index.php?page=addmatiere
+RewriteRule ^addmatiere-([0-9]+)$ index.php?page=addmatiere&id=$1
+RewriteRule ^admindash$ index.php?page=admindash
+RewriteRule ^user$ index.php?page=user
+
+RewriteRule ^addcourse$ index.php?page=addcourse
+RewriteRule ^editcourse$ index.php?page=editcourse
+RewriteRule ^editcourse-([0-9]+)$ index.php?page=editcourse&id=$1
+
+RewriteRule ^user-([0-9]+)$ index.php?page=user&id=$1
+RewriteRule ^locked$ index.php?page=locked
+RewriteRule ^locked$ index.php?page=locked
+RewriteRule ^locked-([0-9]+)$ index.php?page=locked&id=$1
+RewriteRule ^unlocked-([0-9]+)$ index.php?page=unlocked&id=$1
+
+RewriteRule ^profile$ index.php?page=profile
+RewriteRule ^found$ index.php?page=found
+RewriteRule ^aboutUsers$ index.php?page=aboutUsers
+RewriteRule ^admin$ index.php?page=admin
+RewriteRule ^admin-([0-9]+)$ index.php?id=$1
+
+RewriteRule ^editmatiere$ index.php?page=editmatiere
+RewriteRule ^editmatiere-([0-9]+)$ index.php?page=editmatiere&id=$1

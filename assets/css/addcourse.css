@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+body{
+    margin: 0;
+}
+a, h1, h2, h3, p{
+    text-decoration: inherit;
+    color: inherit;
+}
+.container{
+    background-color: #ecfff9;
+    height: 100vh;
+}
